@@ -12,3 +12,4 @@ def GetImage(link):
 
 GetImage("https://via.placeholder.com/350x150.jpg")
 
+#src : https://stackoverflow.com/a/37821542
