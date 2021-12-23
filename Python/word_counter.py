@@ -3,9 +3,8 @@ wordlist = {}
 
 for word in text.split():
     if word not in wordlist:
-        wordlist[word] = 1
-    else:
-        wordlist[word] += 1
+        wordlist[word] = 0
+    wordlist[word] += 1
 
 print(wordlist)
 
